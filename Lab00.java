@@ -12,9 +12,19 @@ public class Lab00
       
    //A list (make an array in java)
    int[] nums = [3,6,-1,2];
-   for (int val : nums)
+   for (int val : nums) {
       System.out.println(val);
+   }
    
+   //Call a function
+   int numFound = char_count(y, '1');
+   System.out.println("Found:" + numFound);
+   
+   //A counting for loop
+   for (int i = 1; i < 11; i++) {
+	   System.out.println(i);
+   }
+	   
    System.out.println("");
    
    }
