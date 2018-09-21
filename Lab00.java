@@ -33,7 +33,7 @@ public class Lab00
    {
       int count = 0;
       for (char ch: s)
-         if c == s[count] {
+         if ch == c {
             count++; 
          }
       return count;
