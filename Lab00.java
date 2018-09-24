@@ -22,8 +22,8 @@ public class Lab00
    
       //A counting for loop
       for (int i = 1; i < 11; i++) {
-         System.out.println(i);
-   }//NEED TO FIND EQUIVALENT FOR <end = ''>
+         System.out.print(i + " ");
+   }
       System.out.println("");
    
    }
